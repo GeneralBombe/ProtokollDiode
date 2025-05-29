@@ -26,6 +26,11 @@
 \usepackage{siunitx}  
 \usepackage{textcase}
 \usepackage{booktabs}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{booktabs}
+
 \sisetup{locale = DE,  
 separate-uncertainty,  
 range-units = brackets,  
@@ -174,7 +179,7 @@ $U_{pp} = 20V \quad f_{gen} = \SI{100}{\hertz}$\quad Funktion: Squarewave
 \Delta I_D \approx \Delta U_{gen}/R \quad R_B \approx \frac{\Delta U_D}{\Delta U_{gen}/R}
 \]
 \section{Auswertung}
-\subsection{Sperrschichtkapazität, Diffusionsspannung und Dotierstoffdichte}
+\subsection{Sperrschichtkapazität, Diffusionsspannung und \\Dotierstoffdichte}
 \[
 C_S = \frac{C_{S0}}{(1+\frac{U}{U_D})^M}\quad f(U) = \frac{1}{C_S^\frac{1}{M}}
 \]
@@ -235,8 +240,44 @@ $R_{B1N4002\text{B3.4}} = \SI{0}{\milli\ohm}$ $R_{B1N4002\text{B3.1}} = \SI{0}{\
 %----------------------------------------------------------------------------------------
 %	SAMPLE CALCULATION
 %----------------------------------------------------------------------------------------
+\subsubsection{Ideale Kennlinie}
+Für zeichnerisch dargstellte Idealkennlinie siehe B.2.1.
+\subsubsection{Sperrsättigungsstrom und Emissionskoeffizient 1N4002}
+\[
+m = \frac{\Delta U_F}{\SI{25.8}{\milli\electronvolt}\cdot ln(I_{F2}/I_{F1})} \rightarrow m = 99,99
+\]
+Verlauf Durchlaßkennlinien siehe B2.1. 
 
 
+
+Zudem sind Temperaturabhängigkeiten sowie Messgenauigkeiten und Verunreinigungen mögliche Ursachen. 
+
+$I_{S Grafisch} = 00,0 < I_{S B1.2}$. Diese Abweichung lässt sich auf thermischer Generation zurückzuführen. Für größere $U_R$ weitet sich die RLZ aus, wodurch thermische Generation einen größeren Einfluss hat. 
+\[
+I_F = I_S(e^{U/\SI{25.8}{\milli\electronvolt}}-1)
+\]
+
+In der gemessenen Kennlinie werden reale Parameter wie Leitungswiderstamd, nichtideales Verhalten des Halbleiters sowie Temperaturabhängigkeiten abgebildet.
+Der Emissionskoeffizient passt dabei die Idealkennlinie etwas an die gemessene an. Trotzdem besteht noch eine nähere Übereinstimmung mit der idealen Kennlinie.
+
+
+\subsubsection{Schaltverhalten}
+
+\begin{tabular}{ll}
+\toprule
+\textbf{Symbol} & \textbf{Wert} \\
+\midrule
+Anstiegszeit $t_r$    & \rule{3cm}{0.4pt} \\
+Einschaltzeit $t_{in}$ & \rule{3cm}{0.4pt} \\
+Speicherzeit  $t_s$    & \rule{3cm}{0.4pt} \\
+Abfallzeit $t_f$    & \rule{3cm}{0.4pt} \\
+Rückerholzeit $t_{rr}$ & \rule{3cm}{0.4pt} \\
+\bottomrule
+\end{tabular}
+\par \par
+
+Zu erwarten wäre eine Funktion ähnlich $y = \hat{u}\sin(x) \text{ für } y < 0 \rightarrow 0$.\par
+Bei hohen Frequenzen können Dioden den Strom nicht mehr ideal gleichrichten, da ihre Schaltzeiten begrenzt sind. Besonders durch die Speicherzeit fließt nach dem Umschalten kurzzeitig ein Rückstrom. Auch die Rückerholzeit führt zu negativen Stromimpulsen beim Sperren. Dadurch entstehen bei höheren Frequenzen Verzerrungen im Stromverlauf, da die Diode nicht mehr rechtzeitig schalten kann.
 \section{Sample Calculation}
 
 \begin{tabular}{ll}
