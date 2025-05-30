@@ -87,33 +87,45 @@ Die Vorbereitung ist im Anhang zu finden. Du Opfer. Du penner
 \subsection{Statische Messungen}
 \subsubsection{Sperrschichtkapazität}
 \centering
+% \usepackage{array}
+% \usepackage{ragged2e}
+% \usepackage{longtable}
+
 
 \begin{longtblr}[
   label = none,
   entry = none,
 ]{
   width = \linewidth,
-  colspec = {Q[163]Q[29]Q[52]Q[52]Q[52]Q[52]Q[52]Q[29]Q[52]Q[29]Q[52]Q[42]Q[44]Q[44]Q[44]Q[44]Q[44]Q[44]},
-  column{122,6\pic} = {c},
-  column{2} = {c},
-  column{3} = {c},
-  column{4} = {c},
-  column{5} = {c},
-  column{6} = {c},
-  column{7} = {c},
-  column{8} = {c},
-  column{9} = {c},
-  column{10} = {c},
-  column{11} = {c},
-  column{12} = {c},
-  column{13} = {c},
-  column{14} = {c},
-  column{15} = {c},
+  colspec = {Q[87]Q[96]Q[94]Q[96]Q[79]Q[79]Q[79]Q[79]Q[79]Q[52]Q[79]},
+  column{even} = {r},
+  column{3} = {r},
+  column{5} = {r},
+  column{7} = {r},
+  column{9} = {r},
+  column{11} = {r},
   vline{2} = {-}{},
   hline{2} = {-}{},
 }
-U/{\si{\volt}}  & 0 & 0.1 & 0,2 & 0,3 & 0,5 & 0,7 & 1 & 1,5 & 2 & 3,5 & 5  & 8  & 10 & 15 & 20 & 25 & 30 \\
-C/{\si{\farad}} & 1 & 2   & 3   & 4   & 5   & 6   & 7 & 8   & 9 & 10  & 11 & 12 & 13 & 14 & 2  & 2  & 2  
+U/V  & 0     & 0,1   & 0,2   & 0,3  & 0,5  & 0,7  & 1    & 1,5  & 2  & 3,5  \\
+C/pF & 122,6 & 110,1 & 102,4 & 96,5 & 87,8 & 81,6 & 74,8 & 67,2 & 62 & 52,5 
+\end{longtblr}
+
+\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[129]Q[77]Q[119]Q[117]Q[119]Q[117]Q[77]Q[119]},
+  column{even} = {r},
+  column{3} = {r},
+  column{5} = {r},
+  column{7} = {r},
+  vline{2} = {-}{},
+  hline{2} = {-}{},
+}
+U/V  & 5  & 8    & 10   & 15   & 20   & 25 & 30   \\
+C/pF & 47 & 40,5 & 37,7 & 33,1 & 30,1 & 28 & 26,4 
 \end{longtblr}
 \subsubsection{Sperrstrom}
 Absolut höchster Strom bei Diode~$\rightarrow$~Kurzschluss.

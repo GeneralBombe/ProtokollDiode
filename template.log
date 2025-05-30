@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.28)  30 MAY 2025 21:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.28)  30 MAY 2025 22:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -805,12 +805,19 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count473
 \@quotereset=\count474
-No file template.aux.
+(./template.aux
+
+LaTeX Warning: Label `tab:uv-cf' multiply defined.
+
+
+LaTeX Warning: Label `tab:uv-cf' multiply defined.
+
+)
 \openout1 = `template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/zchmi/m/it on input line 61.
 LaTeX Font Info:    Trying to load font information for OML+zchmi on input line 61.
-(c:/texlive/2025/texmf-dist/tex/latex/xcharter/omlzchmi.fd
+ (c:/texlive/2025/texmf-dist/tex/latex/xcharter/omlzchmi.fd
 File: omlzchmi.fd 2019/11/21 Fontinst v1.933 font definitions for OML/zchmi.
 )
 LaTeX Font Info:    ... okay on input line 61.
@@ -1063,262 +1070,27 @@ LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
 > Step: split table.
 > Step: init table inner spec.
 > Step: parse table inner spec.
-
-c:/Users/gries/OneDrive/HM/2. Semester/EBAU/ProtokollDiode/template.tex:117: Undefined control sequence.
-<argument> ...not:N \l__tblr_child_from_tl {6\pic 
-                                                  }
-l.117 \end
-          {longtblr}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/gries/OneDrive/HM/2. Semester/EBAU/ProtokollDiode/template.tex:117: Undefined control sequence.
-<argument> ...p_not:N \l__tblr_child_to_tl {6\pic 
-                                                  }
-l.117 \end
-          {longtblr}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 0 
- []
-
-
-Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 0.1 
- []
-
-
-Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 0,2 
- []
-
-
-Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 0,3 
- []
-
-
-Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 0,5 
- []
-
-
-Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 0,7 
- []
-
-
-Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 1 
- []
-
-
-Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 1,5 
- []
-
-
-Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 2 
- []
-
-
-Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 3,5 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 10 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 15 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
-[]\T1/XCharter-TLF/m/n/12 20 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
-[]\T1/XCharter-TLF/m/n/12 25 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
-[]\T1/XCharter-TLF/m/n/12 30 
- []
-
-
-Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 1 
- []
-
-
-Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 7 
- []
-
-
-Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 9 
- []
-
-
-Overfull \hbox (2.52681pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 10 
- []
-
-
-Overfull \hbox (4.50441pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 11 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 12 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 13 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 14 
+Overfull \hbox (1.01648pt too wide) in paragraph at lines 112--112
+ []\T1/XCharter-TLF/m/n/12 110,1
  []
 
 > Step: build the whole table.
 
-Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 0 
+Overfull \hbox (1.01648pt too wide) in paragraph at lines 112--112
+ []\T1/XCharter-TLF/m/n/12 110,1
  []
 
-
-Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 0.1 
- []
-
-
-Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 0,2 
- []
-
-
-Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 0,3 
- []
-
-
-Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 0,5 
- []
-
-
-Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 0,7 
- []
-
-
-Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 1 
- []
-
-
-Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 1,5 
- []
-
-
-Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 2 
- []
-
-
-Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 3,5 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 10 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 15 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
-[]\T1/XCharter-TLF/m/n/12 20 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
-[]\T1/XCharter-TLF/m/n/12 25 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
-[]\T1/XCharter-TLF/m/n/12 30 
- []
-
-
-Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 1 
- []
-
-
-Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 7 
- []
-
-
-Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 9 
- []
-
-
-Overfull \hbox (2.52681pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 10 
- []
-
-
-Overfull \hbox (4.50441pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 11 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 12 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 13 
- []
-
-
-Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
- []\T1/XCharter-TLF/m/n/12 14 
- []
-
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
 
 
 [1
@@ -1327,13 +1099,13 @@ Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
 
 [2]
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 8.44806pt on input line 213.
+(Font)              scaled to size 8.44806pt on input line 224.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 6.33604pt on input line 213.
+(Font)              scaled to size 6.33604pt on input line 224.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 245.
+               Default added (so using `tbp') on input line 256.
 
 
 
@@ -1343,22 +1115,23 @@ LaTeX Warning: No positions in optional float specifier.
 <Figures/placeholder.jpg, id=25, 351.3125pt x 193.72375pt>
 File: Figures/placeholder.jpg Graphic file (type jpg)
 <use Figures/placeholder.jpg>
-Package pdftex.def Info: Figures/placeholder.jpg  used on input line 322.
+Package pdftex.def Info: Figures/placeholder.jpg  used on input line 333.
 (pdftex.def)             Requested size: 258.91765pt x 142.78577pt.
 
 
-LaTeX Warning: Citation 'Smith:2022qr' on page 5 undefined on input line 332.
+LaTeX Warning: Citation 'Smith:2022qr' on page 5 undefined on input line 343.
 
 
-LaTeX Warning: Citation 'Smith:2021jd' on page 5 undefined on input line 332.
+LaTeX Warning: Citation 'Smith:2021jd' on page 5 undefined on input line 343.
 
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 11.52008pt on input line 343.
 
 
 [5 <./Figures/placeholder.jpg>]
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
+(Font)              scaled to size 11.52008pt on input line 354.
 
-LaTeX Warning: Empty bibliography on input line 383.
+
+LaTeX Warning: Empty bibliography on input line 394.
 
 
 
@@ -1372,7 +1145,7 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -1384,15 +1157,15 @@ Package logreq Info: Writing requests to 'template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22825 strings out of 473190
- 470102 string characters out of 5719979
- 1300879 words of memory out of 5000000
- 45811 multiletter control sequences out of 15000+600000
- 671520 words of font info for 126 fonts, out of 8000000 for 9000
+ 22793 strings out of 473190
+ 468918 string characters out of 5719979
+ 1299952 words of memory out of 5000000
+ 45777 multiletter control sequences out of 15000+600000
+ 672450 words of font info for 129 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 88i,13n,115p,754b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,13n,102p,754b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/xcharter/XCharter-Italic.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/xcharter/XCharterMathMI.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/xcharter/XCharterMathRM.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsym.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on template.pdf (6 pages, 262162 bytes).
+Output written on template.pdf (6 pages, 262391 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
