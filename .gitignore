@@ -45,4 +45,5 @@
 .bak 
 .mtc
 *.synctex
+*.synctex\(busy\)
 build/
