@@ -30,7 +30,8 @@
 \usepackage{amsmath}
 \usepackage{array}
 \usepackage{booktabs}
-
+\usepackage{color}
+\usepackage{tabularray}
 \sisetup{locale = DE,  
 separate-uncertainty,  
 range-units = brackets,  
@@ -85,18 +86,35 @@ Die Vorbereitung ist im Anhang zu finden. Du Opfer. Du penner
 \section{Versuchsdurchführung}
 \subsection{Statische Messungen}
 \subsubsection{Sperrschichtkapazität}
-\begin{table}[ht]
 \centering
 
-\begin{tabular}{c|cccccccccccccc}
-U/\si{\volt} & 0 & 0.5 & 1 & 2 & 3 & 4 & 5 & 7.5 & 10 & 12.5 & 15 & 20 & 25 & 30 \\
-\hline
-C/\si{\farad} & 1 \milli& 2 \micro& 3 \pico& 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 \\
-\end{tabular}
-\caption{Sperrschichtkapazität \(C/\si{\farad}\) bei Spannung \(U/\si{\volt}\).}
-\label{tab:uv-cf}
-\end{table}
-
+\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[163]Q[29]Q[52]Q[52]Q[52]Q[52]Q[52]Q[29]Q[52]Q[29]Q[52]Q[42]Q[44]Q[44]Q[44]Q[44]Q[44]Q[44]},
+  column{122,6\pic} = {c},
+  column{2} = {c},
+  column{3} = {c},
+  column{4} = {c},
+  column{5} = {c},
+  column{6} = {c},
+  column{7} = {c},
+  column{8} = {c},
+  column{9} = {c},
+  column{10} = {c},
+  column{11} = {c},
+  column{12} = {c},
+  column{13} = {c},
+  column{14} = {c},
+  column{15} = {c},
+  vline{2} = {-}{},
+  hline{2} = {-}{},
+}
+U/{\si{\volt}}  & 0 & 0.1 & 0,2 & 0,3 & 0,5 & 0,7 & 1 & 1,5 & 2 & 3,5 & 5  & 8  & 10 & 15 & 20 & 25 & 30 \\
+C/{\si{\farad}} & 1 & 2   & 3   & 4   & 5   & 6   & 7 & 8   & 9 & 10  & 11 & 12 & 13 & 14 & 2  & 2  & 2  
+\end{longtblr}
 \subsubsection{Sperrstrom}
 Absolut höchster Strom bei Diode~$\rightarrow$~Kurzschluss.
 \[

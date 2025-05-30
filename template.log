@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.28)  30 MAY 2025 21:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.28)  30 MAY 2025 21:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -667,6 +667,103 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count448
 \@lastruleclass=\count449
 \@thisrulewidth=\dimen188
+) (c:/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
+ (c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (c:/texlive/2025/texmf-dist/tex/latex/tabularray/tabularray.sty
+Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count450
+\l__tblr_c_int=\count451
+\l__tblr_r_int=\count452
+\l__tblr_d_dim=\dimen189
+\l__tblr_h_dim=\dimen190
+\l__tblr_o_dim=\dimen191
+\l__tblr_p_dim=\dimen192
+\l__tblr_q_dim=\dimen193
+\l__tblr_r_dim=\dimen194
+\l__tblr_s_dim=\dimen195
+\l__tblr_t_dim=\dimen196
+\l__tblr_v_dim=\dimen197
+\l__tblr_w_dim=\dimen198
+\l__tblr_a_box=\box68
+\l__tblr_b_box=\box69
+\l__tblr_c_box=\box70
+\l__tblr_d_box=\box71
+\g__tblr_table_count_int=\count453
+\c@rownum=\count454
+\c@colnum=\count455
+\c@rowcount=\count456
+\c@colcount=\count457
+\abovesep=\dimen199
+\belowsep=\dimen256
+\leftsep=\dimen257
+\rightsep=\dimen258
+\g_tblr_level_int=\count458
+\g__tblr_data_row_key_count_int=\count459
+\g__tblr_data_column_key_count_int=\count460
+\g__tblr_data_cell_key_count_int=\count461
+\g__tblr_array_int=\count462
+\l__tblr_key_count_int=\count463
+\l__tblr_key_quotient_int=\count464
+\l__tblr_key_quotient_two_int=\count465
+\l__tblr_key_remainder_int=\count466
+\g__tblr_data_str_value_count_int=\count467
+\rulewidth=\dimen259
+\l__tblr_strut_dp_dim=\dimen260
+\l__tblr_strut_ht_dim=\dimen261
+\g__tblr_cell_wd_dim=\dimen262
+\g__tblr_cell_ht_dim=\dimen263
+\g__tblr_cell_head_dim=\dimen264
+\g__tblr_cell_foot_dim=\dimen265
+\l__column_target_dim=\dimen266
+\l__tblr_caption_box=\box72
+\l__tblr_caption_left_box=\box73
+\l__tblr_row_head_box=\box74
+\l__tblr_row_foot_box=\box75
+\l__tblr_row_head_foot_dim=\dimen267
+\tablewidth=\dimen268
+\l__tblr_table_firsthead_box=\box76
+\l__tblr_table_middlehead_box=\box77
+\l__tblr_table_lasthead_box=\box78
+\l__tblr_table_firstfoot_box=\box79
+\l__tblr_table_middlefoot_box=\box80
+\l__tblr_table_lastfoot_box=\box81
+\l__tblr_remain_height_dim=\dimen269
+\l__tblr_long_from_int=\count468
+\l__tblr_long_to_int=\count469
+\l__tblr_curr_i_int=\count470
+\l__tblr_prev_i_int=\count471
+\l__tblr_table_page_int=\count472
+\l__tblr_table_head_box=\box82
+\l__tblr_table_foot_box=\box83
+\l__tblr_table_head_foot_dim=\dimen270
+\l__tblr_table_head_body_foot_dim=\dimen271
+\l__tblr_table_box=\box84
+\l__tblr_table_hlines_box=\box85
+\l__tblr_hline_box=\box86
+\l__tblr_row_box=\box87
+\l__tblr_col_o_wd_dim=\dimen272
+\l__tblr_col_b_wd_dim=\dimen273
+\l__tblr_hline_leftskip_dim=\dimen274
+\l__tblr_hline_rightskip_dim=\dimen275
+\l__tblr_row_ht_dim=\dimen276
+\l__tblr_row_dp_dim=\dimen277
+\l__tblr_row_abovesep_dim=\dimen278
+\l__tblr_row_belowsep_dim=\dimen279
+\l__tblr_row_vlines_box=\box88
+\l__tblr_vline_box=\box89
+\l__tblr_cell_box=\box90
+\l__row_upper_dim=\dimen280
+\l__row_lower_dim=\dimen281
+\l__row_vpace_dim=\dimen282
+\l__tblr_vline_aboveskip_dim=\dimen283
+\l__tblr_vline_belowskip_dim=\dimen284
+\l__tblr_cell_wd_dim=\dimen285
+\l__tblr_cell_ht_dim=\dimen286
+\l__tblr_diag_box=\box91
 )
 
 Package siunitx Info: Option "separate-uncertainty" has been deprecated in
@@ -694,86 +791,69 @@ Package siunitx Info: Option "per-mode = symbol-or-fraction" has been
 (siunitx)             Use "display-per-mode = fraction, inline-per-mode =
 (siunitx)             symbol" as a replacement.
 
- (c:/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
- (c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 149.
- (c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-LaTeX Info: Redefining \oldstylenums on input line 60.
-LaTeX Font Info:    Trying to load font information for T1+XCharter-TLF on input line 60.
+LaTeX Info: Redefining \oldstylenums on input line 61.
+LaTeX Font Info:    Trying to load font information for T1+XCharter-TLF on input line 61.
  (c:/texlive/2025/texmf-dist/tex/latex/xcharter/T1XCharter-TLF.fd
 File: T1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for T1/XCharter-TLF.
 )
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 60.
+(Font)              scaled to size 11.52008pt on input line 61.
 
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count450
-\@quotereset=\count451
-(./template.aux
-
-LaTeX Warning: Label `tab:uv-cf' multiply defined.
-
-
-LaTeX Warning: Label `tab:uv-cf' multiply defined.
-
-
-LaTeX Warning: Label `tab:uv-cf' multiply defined.
-
-)
+\@quotelevel=\count473
+\@quotereset=\count474
+No file template.aux.
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/zchmi/m/it on input line 60.
-LaTeX Font Info:    Trying to load font information for OML+zchmi on input line 60.
- (c:/texlive/2025/texmf-dist/tex/latex/xcharter/omlzchmi.fd
+LaTeX Font Info:    Checking defaults for OML/zchmi/m/it on input line 61.
+LaTeX Font Info:    Trying to load font information for OML+zchmi on input line 61.
+(c:/texlive/2025/texmf-dist/tex/latex/xcharter/omlzchmi.fd
 File: omlzchmi.fd 2019/11/21 Fontinst v1.933 font definitions for OML/zchmi.
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 60.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 60.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 61.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 61.
  (c:/texlive/2025/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 60.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 60.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 61.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 61.
  (c:/texlive/2025/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 60.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 60.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 61.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 61.
  (c:/texlive/2025/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    ... okay on input line 61.
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count452
-\scratchdimen=\dimen189
-\scratchbox=\box68
-\nofMPsegments=\count453
-\nofMParguments=\count454
+\scratchcounter=\count475
+\scratchdimen=\dimen287
+\scratchbox=\box92
+\nofMPsegments=\count476
+\nofMParguments=\count477
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count455
-\MPscratchDim=\dimen190
-\MPnumerator=\count456
-\makeMPintoPDFobject=\count457
+\MPscratchCnt=\count478
+\MPscratchDim=\dimen288
+\MPnumerator=\count479
+\makeMPintoPDFobject=\count480
 \everyMPtoPDFconversion=\toks37
 ) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -781,15 +861,15 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Command `\dddot' is already robust on input line 60.
-LaTeX Info: Command `\ddddot' is already robust on input line 60.
+LaTeX Info: Command `\dddot' is already robust on input line 61.
+LaTeX Info: Command `\ddddot' is already robust on input line 61.
 
-Package chemgreek Info: Activating mapping `newtx' on line 60.
+Package chemgreek Info: Activating mapping `newtx' on line 61.
 
  (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 60.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 61.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -825,8 +905,8 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count458
-\c@mv@boldtabular=\count459
+\c@mv@tabular=\count481
+\c@mv@boldtabular=\count482
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
 (c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
@@ -850,134 +930,395 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'template.bbl' not found.
 
 No file template.bbl.
-Package biblatex Info: Reference section=0 on input line 60.
-Package biblatex Info: Reference segment=0 on input line 60.
+Package biblatex Info: Reference section=0 on input line 61.
+Package biblatex Info: Reference segment=0 on input line 61.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 19.91054pt on input line 62.
+(Font)              scaled to size 19.91054pt on input line 63.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 62.
-LaTeX Font Info:    Trying to load font information for OT1+XCharter-TLF on input line 62.
+(Font)              scaled to size 13.82408pt on input line 63.
+LaTeX Font Info:    Trying to load font information for OT1+XCharter-TLF on input line 63.
 (c:/texlive/2025/texmf-dist/tex/latex/xcharter/OT1XCharter-TLF.fd
 File: OT1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for OT1/XCharter-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 62.
+(Font)              scaled to size 13.82408pt on input line 63.
 LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.08006pt on input line 62.
+(Font)              scaled to size 10.08006pt on input line 63.
 LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 7.58405pt on input line 62.
+(Font)              scaled to size 7.58405pt on input line 63.
 LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
-(Font)              scaled to size 14.4pt on input line 62.
+(Font)              scaled to size 14.4pt on input line 63.
 LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
-(Font)              scaled to size 10.5pt on input line 62.
+(Font)              scaled to size 10.5pt on input line 63.
 LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
-(Font)              scaled to size 7.9pt on input line 62.
+(Font)              scaled to size 7.9pt on input line 63.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 14.4pt on input line 62.
+(Font)              scaled to size 14.4pt on input line 63.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 10.5pt on input line 62.
+(Font)              scaled to size 10.5pt on input line 63.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 7.9pt on input line 62.
+(Font)              scaled to size 7.9pt on input line 63.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 14.4pt on input line 62.
+(Font)              scaled to size 14.4pt on input line 63.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 10.5pt on input line 62.
+(Font)              scaled to size 10.5pt on input line 63.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 7.9pt on input line 62.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 62.
+(Font)              scaled to size 7.9pt on input line 63.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 63.
  (c:/texlive/2025/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 14.4pt on input line 62.
+(Font)              scaled to size 14.4pt on input line 63.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 10.5pt on input line 62.
+(Font)              scaled to size 10.5pt on input line 63.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 7.9pt on input line 62.
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 62.
+(Font)              scaled to size 7.9pt on input line 63.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 63.
  (c:/texlive/2025/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 14.4pt on input line 62.
+(Font)              scaled to size 14.4pt on input line 63.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 10.5pt on input line 62.
+(Font)              scaled to size 10.5pt on input line 63.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 7.9pt on input line 62.
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 62.
+(Font)              scaled to size 7.9pt on input line 63.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 63.
  (c:/texlive/2025/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 14.4pt on input line 62.
+(Font)              scaled to size 14.4pt on input line 63.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 10.5pt on input line 62.
+(Font)              scaled to size 10.5pt on input line 63.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 7.9pt on input line 62.
+(Font)              scaled to size 7.9pt on input line 63.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 14.4pt on input line 62.
+(Font)              scaled to size 14.4pt on input line 63.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 10.5pt on input line 62.
+(Font)              scaled to size 10.5pt on input line 63.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 7.9pt on input line 62.
+(Font)              scaled to size 7.9pt on input line 63.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sc' will be
-(Font)              scaled to size 13.82408pt on input line 62.
+(Font)              scaled to size 13.82408pt on input line 63.
 LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 65.
+(Font)              scaled to size 11.52008pt on input line 66.
 LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 8.44806pt on input line 65.
+(Font)              scaled to size 8.44806pt on input line 66.
 LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 6.33604pt on input line 65.
+(Font)              scaled to size 6.33604pt on input line 66.
 LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
-(Font)              scaled to size 12.0pt on input line 65.
+(Font)              scaled to size 12.0pt on input line 66.
 LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
-(Font)              scaled to size 8.8pt on input line 65.
+(Font)              scaled to size 8.8pt on input line 66.
 LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 65.
+(Font)              scaled to size 6.6pt on input line 66.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 12.0pt on input line 65.
+(Font)              scaled to size 12.0pt on input line 66.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.8pt on input line 65.
+(Font)              scaled to size 8.8pt on input line 66.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 65.
+(Font)              scaled to size 6.6pt on input line 66.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 65.
+(Font)              scaled to size 12.0pt on input line 66.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 65.
+(Font)              scaled to size 8.8pt on input line 66.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 65.
+(Font)              scaled to size 6.6pt on input line 66.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 12.0pt on input line 65.
+(Font)              scaled to size 12.0pt on input line 66.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.8pt on input line 65.
+(Font)              scaled to size 8.8pt on input line 66.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 65.
+(Font)              scaled to size 6.6pt on input line 66.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 12.0pt on input line 65.
+(Font)              scaled to size 12.0pt on input line 66.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.8pt on input line 65.
+(Font)              scaled to size 8.8pt on input line 66.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 65.
+(Font)              scaled to size 6.6pt on input line 66.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 65.
+(Font)              scaled to size 12.0pt on input line 66.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.8pt on input line 65.
+(Font)              scaled to size 8.8pt on input line 66.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 65.
+(Font)              scaled to size 6.6pt on input line 66.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 12.0pt on input line 65.
+(Font)              scaled to size 12.0pt on input line 66.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.8pt on input line 65.
+(Font)              scaled to size 8.8pt on input line 66.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 65.
+(Font)              scaled to size 6.6pt on input line 66.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 16.58891pt on input line 81.
+(Font)              scaled to size 16.58891pt on input line 82.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 16.58891pt on input line 81.
+(Font)              scaled to size 16.58891pt on input line 82.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 13.82408pt on input line 86.
+(Font)              scaled to size 13.82408pt on input line 87.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 87.
+(Font)              scaled to size 11.52008pt on input line 88.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+
+c:/Users/gries/OneDrive/HM/2. Semester/EBAU/ProtokollDiode/template.tex:117: Undefined control sequence.
+<argument> ...not:N \l__tblr_child_from_tl {6\pic 
+                                                  }
+l.117 \end
+          {longtblr}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/gries/OneDrive/HM/2. Semester/EBAU/ProtokollDiode/template.tex:117: Undefined control sequence.
+<argument> ...p_not:N \l__tblr_child_to_tl {6\pic 
+                                                  }
+l.117 \end
+          {longtblr}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 0 
+ []
+
+
+Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 0.1 
+ []
+
+
+Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 0,2 
+ []
+
+
+Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 0,3 
+ []
+
+
+Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 0,5 
+ []
+
+
+Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 0,7 
+ []
+
+
+Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 1 
+ []
+
+
+Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 1,5 
+ []
+
+
+Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 2 
+ []
+
+
+Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 3,5 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 10 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 15 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+[]\T1/XCharter-TLF/m/n/12 20 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+[]\T1/XCharter-TLF/m/n/12 25 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+[]\T1/XCharter-TLF/m/n/12 30 
+ []
+
+
+Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 1 
+ []
+
+
+Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 7 
+ []
+
+
+Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 9 
+ []
+
+
+Overfull \hbox (2.52681pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 10 
+ []
+
+
+Overfull \hbox (4.50441pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 11 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 12 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 13 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 14 
+ []
+
+> Step: build the whole table.
+
+Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 0 
+ []
+
+
+Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 0.1 
+ []
+
+
+Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 0,2 
+ []
+
+
+Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 0,3 
+ []
+
+
+Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 0,5 
+ []
+
+
+Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 0,7 
+ []
+
+
+Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 1 
+ []
+
+
+Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 1,5 
+ []
+
+
+Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 2 
+ []
+
+
+Overfull \hbox (5.72939pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 3,5 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 10 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 15 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+[]\T1/XCharter-TLF/m/n/12 20 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+[]\T1/XCharter-TLF/m/n/12 25 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+[]\T1/XCharter-TLF/m/n/12 30 
+ []
+
+
+Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 1 
+ []
+
+
+Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 7 
+ []
+
+
+Overfull \hbox (0.67014pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 9 
+ []
+
+
+Overfull \hbox (2.52681pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 10 
+ []
+
+
+Overfull \hbox (4.50441pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 11 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 12 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 13 
+ []
+
+
+Overfull \hbox (4.10889pt too wide) in paragraph at lines 117--117
+ []\T1/XCharter-TLF/m/n/12 14 
+ []
+
 
 
 [1
@@ -986,17 +1327,13 @@ LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
 
 [2]
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 8.44806pt on input line 195.
+(Font)              scaled to size 8.44806pt on input line 213.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 6.33604pt on input line 195.
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--210
-
- []
+(Font)              scaled to size 6.33604pt on input line 213.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 227.
+               Default added (so using `tbp') on input line 245.
 
 
 
@@ -1006,23 +1343,22 @@ LaTeX Warning: No positions in optional float specifier.
 <Figures/placeholder.jpg, id=25, 351.3125pt x 193.72375pt>
 File: Figures/placeholder.jpg Graphic file (type jpg)
 <use Figures/placeholder.jpg>
-Package pdftex.def Info: Figures/placeholder.jpg  used on input line 304.
+Package pdftex.def Info: Figures/placeholder.jpg  used on input line 322.
 (pdftex.def)             Requested size: 258.91765pt x 142.78577pt.
 
 
-LaTeX Warning: Citation 'Smith:2022qr' on page 5 undefined on input line 314.
+LaTeX Warning: Citation 'Smith:2022qr' on page 5 undefined on input line 332.
 
 
-LaTeX Warning: Citation 'Smith:2021jd' on page 5 undefined on input line 314.
+LaTeX Warning: Citation 'Smith:2021jd' on page 5 undefined on input line 332.
 
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
+(Font)              scaled to size 11.52008pt on input line 343.
 
 
 [5 <./Figures/placeholder.jpg>]
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 11.52008pt on input line 325.
 
-
-LaTeX Warning: Empty bibliography on input line 365.
+LaTeX Warning: Empty bibliography on input line 383.
 
 
 
@@ -1036,7 +1372,7 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -1048,15 +1384,15 @@ Package logreq Info: Writing requests to 'template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20946 strings out of 473190
- 420195 string characters out of 5719979
- 1246933 words of memory out of 5000000
- 43934 multiletter control sequences out of 15000+600000
- 670029 words of font info for 123 fonts, out of 8000000 for 9000
+ 22825 strings out of 473190
+ 470102 string characters out of 5719979
+ 1300879 words of memory out of 5000000
+ 45811 multiletter control sequences out of 15000+600000
+ 671520 words of font info for 126 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 88i,13n,94p,754b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,13n,115p,754b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/xcharter/XCharter-Italic.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/xcharter/XCharterMathMI.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/xcharter/XCharterMathRM.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsym.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on template.pdf (6 pages, 262302 bytes).
+Output written on template.pdf (6 pages, 262162 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
