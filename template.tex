@@ -81,7 +81,7 @@ per-mode=symbol-or-fraction,
 %----------------------------------------------------------------------------------------
 
 \section{Einführung}
-Die Vorbereitung ist im Anhang zu finden. Du Opfer. Du penner
+Die Vorbereitung ist im Anhang zu finden.
 Test Pull Request.
 
 \section{Versuchsdurchführung}
@@ -220,6 +220,9 @@ $U_{pp} = 20V \quad f_{gen} = \SI{100}{\hertz}$\quad Funktion: Squarewave
 C_S = \frac{C_{S0}}{(1+\frac{U}{U_D})^M}\quad f(U) = \frac{1}{C_S^\frac{1}{M}}
 \]
 Stufenfaktor von x ist ein indiz für einen linearen pn-Übergang.
+
+\vspace{1em} 
+
 \[
 % TODO: Replace 0 with the actual value 
 C_{S0} = \SI{0}{\pico\farad} \quad \varepsilon _{r_{si}} = 11,7 \quad A_{RLZ} = \SI{2.5}{\milli\metre\squared}
@@ -230,6 +233,7 @@ N_A &\gg N_D \rightarrow \text{abrupter pn-Übergang} \\
 \leftrightarrow\ N_D &= \frac{C_s^2 \cdot 2 \cdot (U_D - U)}{\varepsilon_r \cdot \varepsilon_0 \cdot A_{RLZ}^2}
 \end{align*}
 
+\vspace{1em} 
 
 \subsection{Vergleich verschiedener Dioden}
 Für Vergleich in Übersichtsdarstellung siehe B.2.2 Grafik.
@@ -254,21 +258,27 @@ n_i^2 = \sqrt{N_C N_V} \cdot \exp\left(-\frac{W_g}{2kT}\right)
 \right\}
 \quad I_s \varpropto n_i^2 \varpropto \exp\left(-\frac{W_g}{2kT}\right)
 \]
+
+\vspace{1em} 
+
 Desto kleiner $I_s$ bzw. desto größer $W_g$, umso größer muss $U$ sein, um einen Strom $I$ zu halten.  
 
 \subsection{Schaltdioden}
 \subsubsection{Kennlinienparameter}
 Für graphische Darstellung für $U_F$ und $R_B$ siehe B.2.1. \\
 $U_{Z_{\SI{5}{\milli\ampere}}}$ wird bei B.2.3 grafisch Bestimmt. \\
+
 \begin{table}[]
+\centering
 \begin{tabular}{@{}ll|l@{}}
-							& $U_{Datenblatt}$ & $U_{Gemessen}$ \\
+                            & $U_{Datenblatt}$ & $U_{Gemessen}$ \\
 \cmidrule(l){2-3}
-\multicolumn{1}{l|}{1N4002} & a              & b            \\
+\multicolumn{1}{l|}{1N4002} & a                & b              \\
 \midrule
-\multicolumn{1}{l|}{AA136}  & c              & d           
+\multicolumn{1}{l|}{AA136}  & c                & d             
 \end{tabular}
 \end{table}
+
 
 
 \subsubsection{Bahnwiderstand}
@@ -279,9 +289,12 @@ $R_{B1N4002\text{B3.4}} = \SI{0}{\milli\ohm}$ $R_{B1N4002\text{B3.1}} = \SI{0}{\
 \subsubsection{Ideale Kennlinie}
 Für zeichnerisch dargstellte Idealkennlinie siehe B.2.1.
 \subsubsection{Sperrsättigungsstrom und Emissionskoeffizient 1N4002}
+\vspace{1em} 
 \[
 m = \frac{\Delta U_F}{\SI{25.8}{\milli\electronvolt}\cdot ln(I_{F2}/I_{F1})} \rightarrow m = 99,99
 \]
+\vspace{1em}
+
 Verlauf Durchlaßkennlinien siehe B2.1. 
 
 
@@ -299,18 +312,23 @@ Der Emissionskoeffizient passt dabei die Idealkennlinie etwas an die gemessene a
 
 \subsubsection{Schaltverhalten}
 
+\vspace{1em} 
+
+\begin{center}
 \begin{tabular}{ll}
 \toprule
 \textbf{Symbol} & \textbf{Wert} \\
 \midrule
-Anstiegszeit $t_r$    & \rule{3cm}{0.4pt} \\
-Einschaltzeit $t_{in}$ & \rule{3cm}{0.4pt} \\
-Speicherzeit  $t_s$    & \rule{3cm}{0.4pt} \\
-Abfallzeit $t_f$    & \rule{3cm}{0.4pt} \\
-Rückerholzeit $t_{rr}$ & \rule{3cm}{0.4pt} \\
+Anstiegszeit $t_r$       & \rule{3cm}{0.4pt} \\
+Einschaltzeit $t_{in}$   & \rule{3cm}{0.4pt} \\
+Speicherzeit  $t_s$      & \rule{3cm}{0.4pt} \\
+Abfallzeit $t_f$         & \rule{3cm}{0.4pt} \\
+Rückerholzeit $t_{rr}$   & \rule{3cm}{0.4pt} \\
 \bottomrule
 \end{tabular}
-\par \par
+\end{center}
+
+\vspace{1em} 
 
 Zu erwarten wäre eine Funktion ähnlich $y = \hat{u}\sin(x) \text{ für } y < 0 \rightarrow 0$.\par
 Bei hohen Frequenzen können Dioden den Strom nicht mehr ideal gleichrichten, da ihre Schaltzeiten begrenzt sind. Besonders durch die Speicherzeit fließt nach dem Umschalten kurzzeitig ein Rückstrom. Auch die Rückerholzeit führt zu negativen Stromimpulsen beim Sperren. Dadurch entstehen bei höheren Frequenzen Verzerrungen im Stromverlauf, da die Diode nicht mehr rechtzeitig schalten kann.
