@@ -52,10 +52,10 @@
 %----------------------------------------------------------------------------------------
 
 \usepackage[
-	top=3cm, % Top margin
+	top=2.5cm, % Top margin
 	bottom=3cm, % Bottom margin
-	left=3.5cm, % Left margin
-	right=3.5cm, % Right margin
+	left=2.5cm, % Left margin
+	right=2.5cm, % Right margin
 	%showframe % Uncomment to show frames around the margins for debugging purposes
 ]{geometry}
 
