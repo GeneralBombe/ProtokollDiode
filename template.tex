@@ -167,8 +167,6 @@ I/\si{\ampere} & 0,35\nano& 0,81\nano& 2,86\nano\\
 \subsubsection{Vorwärtsstrom 1N4002}
 
 
-
-
 \begin{table}[H]
 \centering
 \begin{tabular}{c|cccccccc}
@@ -218,11 +216,6 @@ Bandgap $A = 3/2$
 	\caption{AA136 Durchlaßkennlinien}
 \end{figure}
 
-\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
-	\centering % Horizontally center the figure
-	\includegraphics[width=1\textwidth]{placeholder} % Include the figure, now larger
-	\caption{Placeholder}
-\end{figure}
 
 \[
 I_F = \frac{U_Z}{0,1 \cdot 10}
@@ -233,21 +226,56 @@ $U_{Gen}= x$\ max.\ \SI{100}{\milli\ampere}
 \subsubsection{Vergleich der Kennlinien}
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
-	\includegraphics[width=1\textwidth]{B.2.2} % Include the figure, now larger
-	\caption{Dioden Kennlinien}
+	\includegraphics[width=0.75\textwidth]{B.2.2} % Include the figure, now larger
+	\caption{Verschiedene Diodenkennlinien.}
 \end{figure}
 
 %B2.3.
 \subsubsection{Z-Dioden}
+
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.75\textwidth]{B.2.3} % Include the figure, now larger
+	\caption{Gesamtkennlinie der Zener Dioden ZPD8.2 und ZPD2.7.}
+\end{figure}
+
+
 %B.3
 \subsection{Dynamisches Verhalten der Siliziumdiode (1N4002)}
 %B.3.1
 \subsubsection{Bestimmung von Speicher- und Abfallzeit}
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.75\textwidth]{B.3.1} % Include the figure, now larger
+	\caption{Grafische bestimmung von $t_s$, $t_f$ und $t_{rr}$.}
+\end{figure}
+
 %B.3.2
 \subsubsection{Bestimmung der Einschaltzeiten}
-$U_{pp} = 20V \quad f_{gen} = \SI{100}{\hertz}$\quad Funktion: Squarewave
+%$U_{pp} = 20V \quad f_{gen} = \SI{100}{\hertz}$\quad Funktion: Squarewave
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.75\textwidth]{B.3.2} % Include the figure, now larger
+	\caption{Grafische bestimmung von $t_r$.}
+\end{figure}
+
 %B.3.3
 \subsubsection{Einfluß der Schaltzeiten auf die maximale Betriebsfrequenz}
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.75\textwidth]{B.3.3.a} % Include the figure, now larger
+	\caption{Gleichrichtverhalten bei \SI{100}{\hertz}.}
+\end{figure}
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.75\textwidth]{B.3.3.b} % Include the figure, now larger
+	\caption{Gleichrichtverhalten bei \SI{100}{\kilo\hertz}.}
+\end{figure}
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.75\textwidth]{B.3.3.c} % Include the figure, now larger
+	\caption{Gleichrichtverhalten bei \SI{1}{\mega\hertz}.}
+\end{figure}
 %B.3.4
 \subsubsection{Dynamische Bestimmung des Bahnwiderstands}
 
@@ -322,7 +350,7 @@ $U_{Z_{\SI{5}{\milli\ampere}}}$ wird bei B.2.3 grafisch Bestimmt. \\
 \begin{table}[H]
 \centering
 \begin{tabular}{l|llll}
-                            & $U_{\text{Datenblatt}}$ & $U_{\text{Gemessen}}$ & $R_{B,\text{Datenblatt}}$ & $R_{B,\text{Gemessen}}$ \\
+                            & $U_{\text{F,Datenblatt}}$ & $U_{F,\text{Gemessen}}$ & $R_{B,\text{Datenblatt}}$ & $R_{B,\text{Gemessen}}$ \\
 \hline
 1N4002                     & <1,1V                        & 710mV                      & N.A                          & 0,55$\Omega$                       \\
 \hline
@@ -406,11 +434,6 @@ Because of this reaction, the required ratio is the atomic weight of magnesium: 
 
 The atomic weight of magnesium is concluded to be \SI{24}{\gram\per\mol}, as determined by the stoichiometry of its chemical combination with oxygen. This result is in agreement with the accepted value.
 
-\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
-	\centering % Horizontally center the figure
-	\includegraphics[width=0.65\textwidth]{placeholder} % Include the figure
-	\caption{Figure caption.}
-\end{figure}
 
 %----------------------------------------------------------------------------------------
 %	DISCUSSION
