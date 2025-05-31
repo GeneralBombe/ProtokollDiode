@@ -60,6 +60,7 @@ per-mode=symbol-or-fraction,
 
 \begin{document}
 
+
 \maketitle % Insert the title, author and date using the information specified above
 
 \begin{center}
@@ -81,17 +82,19 @@ per-mode=symbol-or-fraction,
 
 \section{Einführung}
 Die Vorbereitung ist im Anhang zu finden. Du Opfer. Du penner
-
+Test Pull Request.
 
 \section{Versuchsdurchführung}
 \subsection{Statische Messungen}
 \subsubsection{Sperrschichtkapazität}
-\centering
+%\centering
 % \usepackage{array}
 % \usepackage{ragged2e}
 % \usepackage{longtable}
 
 
+\begin{table}[ht]
+\centering
 \begin{longtblr}[
   label = none,
   entry = none,
@@ -110,23 +113,26 @@ Die Vorbereitung ist im Anhang zu finden. Du Opfer. Du penner
 U/V  & 0     & 0,1   & 0,2   & 0,3  & 0,5  & 0,7  & 1    & 1,5  & 2  & 3,5  \\
 C/pF & 122,6 & 110,1 & 102,4 & 96,5 & 87,8 & 81,6 & 74,8 & 67,2 & 62 & 52,5 
 \end{longtblr}
-hello
+\caption{Sperrschichtkapazitäten bei zwischen 0 bis \SI{3.5}{\volt}}
+\end{table}
+
+\begin{table}[ht]
+\centering
 \begin{longtblr}[
   label = none,
   entry = none,
 ]{
   width = \linewidth,
-  colspec = {Q[129]Q[77]Q[119]Q[117]Q[119]Q[117]Q[77]Q[119]},
-  column{even} = {r},
-  column{3} = {r},
-  column{5} = {r},
-  column{7} = {r},
+  colspec = {Q[129,c]Q[77,c]Q[119,c]Q[117,c]Q[119,c]Q[117,c]Q[77,c]Q[119,c]},
   vline{2} = {-}{},
   hline{2} = {-}{},
 }
 U/V  & 5  & 8    & 10   & 15   & 20   & 25 & 30   \\
 C/pF & 47 & 40,5 & 37,7 & 33,1 & 30,1 & 28 & 26,4 
 \end{longtblr}
+\caption{Sperrschichtkapazitäten bei zwischen 3,5 bis \SI{30}{\volt}}
+
+\end{table}
 \subsubsection{Sperrstrom}
 Absolut höchster Strom bei Diode~$\rightarrow$~Kurzschluss.
 \[
