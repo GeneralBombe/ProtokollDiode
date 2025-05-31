@@ -47,3 +47,4 @@
 *.synctex
 *.synctex\(busy\)
 build/
+!Vorbereitung1.pdf
