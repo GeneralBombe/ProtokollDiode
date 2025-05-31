@@ -79,13 +79,15 @@ per-mode=symbol-or-fraction,
 %----------------------------------------------------------------------------------------
 %	OBJECTIVE
 %----------------------------------------------------------------------------------------
-
+%A%
 \section{Einführung}
 Die Vorbereitung ist im Anhang zu finden.
 Johann checkt schon wieder nix.
-
+%B%
 \section{Versuchsdurchführung}
+%B.1%
 \subsection{Statische Messungen}
+%B.1.1%
 \subsubsection{Sperrschichtkapazität}
 \begin{table}[ht]
 \centering
@@ -121,6 +123,7 @@ C/pF & 47 & 40,5 & 37,7 & 33,1 & 30,1 & 28 & 26,4
 \caption{Sperrschichtkapazitäten bei zwischen 3,5 bis \SI{30}{\volt}}
 
 \end{table}
+%B.1.2%
 \subsubsection{Sperrstrom}
 Absolut höchster Strom bei Diode~$\rightarrow$~Kurzschluss.
 \[
@@ -153,7 +156,7 @@ I/\si{\ampere} & 1\milli& 2\micro& 3\pico\\
 \caption{1N4002 Sperrströme bei Spannungen.}
 \label{tab:uv-cf}
 \end{table}
-
+%B.1.3%
 \subsubsection{Vorwärtsstrom 1N4002}
 
 \begin{table}[H]
@@ -177,10 +180,12 @@ $I/\si{\ampere}$ & 8\micro& 15\micro& 30\micro& 80\micro& 150\micro& 300\micro& 
 %	\item[Second Objective] \hfill \\
 %	Objective 2 text
 %\end{description}
+%B.2%
 
 \subsection{Dynamische Aufnahme von Kennlinien}
-\subsubsection{Durchlaßkennlinien 1N4002 und AA136}
 %B2.1
+
+\subsubsection{Durchlaßkennlinien 1N4002 und AA136}
 %Grafik Beginn
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
@@ -209,23 +214,28 @@ I_F = \frac{U_Z}{0,1 \cdot 10}
 \]
 $I_{F}$ 
 $U_{Gen}= x$\ max.\ \SI{100}{\milli\ampere}
-
+%B.2.2%
 \subsubsection{Vergleich der Kennlinien}
-
+%B2.3.
 \subsubsection{Z-Dioden}
-
+%B.3
 \subsection{Dynamisches Verhalten der Siliziumdiode (1N4002)}
+%B.3.1
 \subsubsection{Bestimmung von Speicher- und Abfallzeit}
+%B.3.2
 \subsubsection{Bestimmung der Einschaltzeiten}
 $U_{pp} = 20V \quad f_{gen} = \SI{100}{\hertz}$\quad Funktion: Squarewave
-
+%B.3.3
 \subsubsection{Einfluß der Schaltzeiten auf die maximale Betriebsfrequenz}
+%B.3.4
 \subsubsection{Dynamische Bestimmung des Bahnwiderstands}
 
 \[
 \Delta I_D \approx \Delta U_{gen}/R \quad R_B \approx \frac{\Delta U_D}{\Delta U_{gen}/R}
 \]
+%C
 \section{Auswertung}
+%C.1
 \subsection{Sperrschichtkapazität, Diffusionsspannung und \\Dotierstoffdichte}
 \[
 C_S = \frac{C_{S0}}{(1+\frac{U}{U_D})^M}\quad f(U) = \frac{1}{C_S^\frac{1}{M}}
@@ -245,7 +255,7 @@ N_A &\gg N_D \rightarrow \text{abrupter pn-Übergang} \\
 \end{align*}
 
 \vspace{1em} 
-
+%C.2
 \subsection{Vergleich verschiedener Dioden}
 Für Vergleich in Übersichtsdarstellung siehe B.2.2 Grafik.
 \[
@@ -273,8 +283,9 @@ n_i^2 = \sqrt{N_C N_V} \cdot \exp\left(-\frac{W_g}{2kT}\right)
 \vspace{1em} 
 
 Desto kleiner $I_s$ bzw. desto größer $W_g$, umso größer muss $U$ sein, um einen Strom $I$ zu halten.  
-
+%C.3
 \subsection{Schaltdioden}
+%C.3.1
 \subsubsection{Kennlinienparameter}
 Für graphische Darstellung für $U_F$ und $R_B$ siehe B.2.1. \\
 $U_{Z_{\SI{5}{\milli\ampere}}}$ wird bei B.2.3 grafisch Bestimmt. \\
@@ -291,14 +302,16 @@ $U_{Z_{\SI{5}{\milli\ampere}}}$ wird bei B.2.3 grafisch Bestimmt. \\
 \end{table}
 
 
-
+%C.3.2
 \subsubsection{Bahnwiderstand}
 $R_{B1N4002\text{B3.4}} = \SI{0}{\milli\ohm}$ $R_{B1N4002\text{B3.1}} = \SI{0}{\milli\ohm}\rightarrow $ Ergebnisse liegen im Rahmen der Messgenauigkeit. 
 %----------------------------------------------------------------------------------------
 %	SAMPLE CALCULATION
 %----------------------------------------------------------------------------------------
+%C.3.3
 \subsubsection{Ideale Kennlinie}
 Für zeichnerisch dargstellte Idealkennlinie siehe B.2.1.
+%C.3.4
 \subsubsection{Sperrsättigungsstrom und Emissionskoeffizient 1N4002}
 \vspace{1em} 
 \[
@@ -320,7 +333,7 @@ I_F = I_S(e^{U/\SI{25.8}{\milli\electronvolt}}-1)
 In der gemessenen Kennlinie werden reale Parameter wie Leitungswiderstamd, nichtideales Verhalten des Halbleiters sowie Temperaturabhängigkeiten abgebildet.
 Der Emissionskoeffizient passt dabei die Idealkennlinie etwas an die gemessene an. Trotzdem besteht noch eine nähere Übereinstimmung mit der idealen Kennlinie.
 
-
+%C.3.5
 \subsubsection{Schaltverhalten}
 
 \vspace{1em} 
