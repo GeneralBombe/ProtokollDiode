@@ -123,6 +123,13 @@ C/pF & 47 & 40,5 & 37,7 & 33,1 & 30,1 & 28 & 26,4
 \caption{Sperrschichtkapazitäten bei zwischen 3,5 bis \SI{30}{\volt}}
 
 \end{table}
+
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.7\textwidth]{B1.1LineareDarstellug} % Include the figure, now larger
+	\caption{P600A Sperrschichtkapazität über Spannung.}
+\end{figure}
+
 %B.1.2%
 \subsubsection{Sperrstrom}
 Absolut höchster Strom bei Diode~$\rightarrow$~Kurzschluss.
@@ -139,7 +146,7 @@ Das Picoampermeter wird am niederohmigen Knoten geschaltet, um den sehr kleinen 
 \begin{tabular}{c|cccccccccccccc}
 U/\si{\volt} & 0,5 & 5 & 30\\
 \hline
-I/\si{\ampere} & 1\milli& 2\micro& 3\pico\\
+I/\si{\ampere} & 1,093\micro& 1,256\micro& 1,691\micro	\\
 \end{tabular}
 \caption{AA136 Sperrströme bei Spannungen.}
 \label{tab:uv-cf}
@@ -151,13 +158,16 @@ I/\si{\ampere} & 1\milli& 2\micro& 3\pico\\
 \begin{tabular}{c|cccccccccccccc}
 U/\si{\volt} & 0,5 & 5 & 30\\
 \hline
-I/\si{\ampere} & 1\milli& 2\micro& 3\pico\\
+I/\si{\ampere} & 0,35\nano& 0,81\nano& 2,86\nano\\
 \end{tabular}
-\caption{1N4002 Sperrströme bei Spannungen.}
+\caption{1N4002 Sperrströme bei Spannungen. Der Sperrstrom bei 0,5V ist zwsichen 0,25\nano A und 0,4\nano A geschwanken.}
 \label{tab:uv-cf}
 \end{table}
 %B.1.3%
 \subsubsection{Vorwärtsstrom 1N4002}
+
+
+
 
 \begin{table}[H]
 \centering
@@ -172,6 +182,11 @@ $I/\si{\ampere}$ & 8\micro& 15\micro& 30\micro& 80\micro& 150\micro& 300\micro& 
 \label{tab:uv-cf}
 \end{table}
 
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.7\textwidth]{B.1.3.LogarithmischeDarstellung} % Include the figure, now larger
+	\caption{Logarithmische Darstellung des Durchlassstroms über Spannung der Diode 1N4002.}
+\end{figure}
 
 % If you have more than one objective, uncomment the below:
 %\begin{description}
@@ -306,7 +321,7 @@ $U_{Z_{\SI{5}{\milli\ampere}}}$ wird bei B.2.3 grafisch Bestimmt. \\
 
 \begin{table}[H]
 \centering
-\begin{tabular}{l|l|l|l|l}
+\begin{tabular}{l|llll}
                             & $U_{\text{Datenblatt}}$ & $U_{\text{Gemessen}}$ & $R_{B,\text{Datenblatt}}$ & $R_{B,\text{Gemessen}}$ \\
 \hline
 1N4002                     & <1,1V                        & 710mV                      & N.A                          & 0,55$\Omega$                       \\
