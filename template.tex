@@ -286,14 +286,14 @@ $I/\si{\ampere}$ & 8\micro& 15\micro& 30\micro& 80\micro& 150\micro& 300\micro& 
 Nun soll die gesuchte Injektionszeit $t_i$ bestimmt werden. Erhöhen der Frequenz und beobachten der Speicherzeit ergab folgenden Wert für $f_{\text{best}}$: 
 
 \begin{align*}
-    f_{\text{best}} &= \SI{14,3}{\kilo\hertz} 
-    && t_r = \SI{1,21}{\micro\second}
+	f_{\text{best}} &= \SI{14,3}{\kilo\hertz} 
+	&& t_r = \SI{1,21}{\micro\second}
 \end{align*}
 
 \begin{align*}
 	\Rightarrow\quad 
-    t_i &= \left(\frac{1}{2 f_{\text{best}}}\right) - t_r \\ \\
-    \Rightarrow\quad
+    t_i &= \left(\frac{1}{2 f_{\text{best}}}\right) - t_r \\
+    %
     t_i &= \SI{33,755}{\micro\second}
 \end{align*}
 
@@ -337,18 +337,18 @@ Nun soll die gesuchte Injektionszeit $t_i$ bestimmt werden. Erhöhen der Frequen
 Anhand der gemessenen Werte kann nun $R_B$ bestimmt werden:
 
 \begin{align*}
-    \Delta U_{\text{gen}} &= \SI{13.5}{\volt} 
-    && \Delta U_D = \SI{50}{\milli\volt}
+	\Delta U_{\text{gen}} &= \SI{13.5}{\volt} 
+	&& \Delta U_D = \SI{50}{\milli\volt}
 \end{align*}
 
 \begin{align*}
-    \Rightarrow\quad 
-    R_B \approx \frac{\Delta U_D}{\Delta U_{\text{gen}} / R}
+	\Rightarrow\quad 
+	R_B \approx \frac{\Delta U_D}{\Delta U_{\text{gen}} / R}
 \end{align*}
 
 \begin{align*}
-    \Rightarrow\quad 
-    R_B &= \frac{\SI{50}{\milli\volt}}{\SI{13.5}{\volt} / \SI{100}\ohm}  =  \SI{370}{\milli\ohm} \\
+	\Rightarrow\quad 
+	R_B &= \frac{\SI{50}{\milli\volt}}{\SI{13.5}{\volt} / \SI{100}\ohm}  =  \SI{370}{\milli\ohm} \\
 \end{align*}
 
 \vspace{1em}
@@ -364,13 +364,23 @@ Anhand der gemessenen Werte kann nun $R_B$ bestimmt werden:
 	\centering % Horizontally center the figure
 	\includegraphics[width=0.75\textwidth]{B1.1LineareDarstellug} % Include the figure, now larger
 	\caption{Sperrschichtkapazität über Spannung der P600A Diode.}
+	\label{fig:Sperrschichtkap}
 \end{figure}
 
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.75\textwidth]{C3.1faktore} % Include the figure, now larger
+	\caption{$(\frac{1}{C})^2$ bei Stufenfaktor $M=0.33$.}
+\end{figure}
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.75\textwidth]{mregression} % Include the figure, now larger
+	\caption{Nichtlineare Regression in Python.}
+\end{figure}
 
 \[
 C_S = \frac{C_{S0}}{(1+\frac{U}{U_D})^M}\quad f(U) = \frac{1}{C_S^\frac{1}{M}}
 \]
-
 Stufenfaktor von x ist ein indiz für einen linearen pn-Übergang.
 
 \vspace{1em} 
@@ -459,7 +469,7 @@ $U_{Z_{\SI{5}{\milli\ampere}}}$ wird bei B.2.3 grafisch Bestimmt. \\
 \begin{table}[H]
 \centering
 \begin{tabular}{l|llll}
-                            & $U_{\text{F,Datenblatt}}$ & $U_{F,\text{Gemessen}}$ & $R_{B,\text{Datenblatt}}$ & $R_{B,\text{Gemessen}}$ \\
+							& $U_{\text{F,Datenblatt}}$ & $U_{F,\text{Gemessen}}$ & $R_{B,\text{Datenblatt}}$ & $R_{B,\text{Gemessen}}$ \\
 \hline
 1N4002                     & <1,1V                        & 710mV                      & N.A                          & 0,55$\Omega$                       \\
 \hline
@@ -589,4 +599,6 @@ $U_{s\_5mk}$ & Durchbruchspannung an der Z-Diode bei $I_2 = 5$mA \\
 \clearpage
 %----------------------------------------------------------------------------------------
 \includepdf[pages=-]{Vorbereitung1.pdf}
+\includepdf[pages=-]{stufenfaktorskript.pdf}
+
 \end{document}
