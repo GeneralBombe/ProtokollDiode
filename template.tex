@@ -402,7 +402,9 @@ N_A &\gg N_D \rightarrow \text{abrupter pn-Übergang} \\
 N_D \approx \SI{84.04e12}{\per\centi\meter\cubed}
 \]
 \vspace{1em} 
-
+\[
+	U_{db} \approx \SI{10}{\volt}(10^{17} \cdot N_D^{-1}) \rightarrow U_{db} > 1400 \text{also plausibel}
+\]
 %C.2
 \subsection{Vergleich verschiedener Dioden}
 Für Vergleich in Übersichtsdarstellung siehe B.2.2 Grafik.
@@ -475,9 +477,9 @@ $U_{Z_{\SI{5}{\milli\ampere}}}$ wird bei B.2.3 grafisch Bestimmt. \\
 \begin{tabular}{l|llll}
 							& $U_{\text{F,Datenblatt}}$ & $U_{F,\text{Gemessen}}$ & $R_{B,\text{Datenblatt}}$ & $R_{B,\text{Gemessen}}$ \\
 \hline
-1N4002                     & <1,1V                        & 710mV                      & N.A                          & 0,55$\Omega$                       \\
+1N4002                     & \SI{0.93}{\volt}                        & \SI{0.71}{\volt}                       & N.A                          & \SI{0.55}{\ohm}                         \\
 \hline
-AA136                      & 0,55V                        & 345mV                      & N.A                          & 1,0194$\Omega$                       \\                       
+AA136                      & \SI{0.55}{\volt}                        & \SI{0.345}{\volt}                      & N.A                          & \SI{1.0194}{\ohm}                       \\                       
 \end{tabular}
 \end{table}
 
@@ -564,11 +566,11 @@ Der Emissionskoeffizient passt dabei die Idealkennlinie etwas an die gemessene a
 \toprule
 \textbf{Symbol} & \textbf{Wert} \\
 \midrule
-Anstiegszeit $t_r$       & \rule{3cm}{0.4pt} \\
-Einschaltzeit $t_{in}$   & \rule{3cm}{0.4pt} \\
-Speicherzeit  $t_s$      & \rule{3cm}{0.4pt} \\
-Abfallzeit $t_f$         & \rule{3cm}{0.4pt} \\
-Rückerholzeit $t_{rr}$   & \rule{3cm}{0.4pt} \\
+Anstiegszeit $\SI{1.21}{\micro\second}$       & \rule{3cm}{0.4pt} \\
+Einschaltzeit $\SI{33.755}{\micro\second}$    & \rule{3cm}{0.4pt} \\
+Speicherzeit  $\SI{3.83}{\micro\second}$      & \rule{3cm}{0.4pt} \\
+Abfallzeit $\SI{4.17}{\micro\second}$         & \rule{3cm}{0.4pt} \\
+Rückerholzeit $\SI{8}{\micro\second}$   & \rule{3cm}{0.4pt} \\
 \bottomrule
 \end{tabular}
 \end{center}
