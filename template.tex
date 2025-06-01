@@ -383,15 +383,14 @@ C_S = \frac{C_{S0}}{(1+\frac{U}{U_D})^M}\quad f(U) = \frac{1}{C_S^\frac{1}{M}}
 \]
 Der Stufenfaktor wurde durch lineare Regression der Kapazitäts-Spannungs-Daten, abhänhih von M linearisiert. Die beste linearisierung entspricht in etwa dem Stufenfaktor. 
 Der Schnittpunkt der Ausgleichsgerade mit der Spannungsachse entspricht der Diffusionsspannung $U_D$ (hier $\approx \SI{0.275}{\volt}$).
-Stufenfaktor von $M \approx 3.33$ ist ein indiz für einen abrupten pn-Übergang. \\begin{align*}
+Stufenfaktor von $M \approx 3.33$ ist ein indiz für einen abrupten pn-Übergang. \\
 Das hierbei verwendete Python Skript findet sich im Anhang.
-\end{align*}
-\vspace{1em}
+
 
 % TODO: Replace 0 with the actual value 
 
 \[
-C_{S0} = \SI{122,6}{\pico\farad} \quad \varepsilon_{\mathrm{r,Si}} = 11{,}7 \quad A_{RLZ} = \SI{2.5}{\milli\metre\squared}
+U_D = \SI{0.275}{\volt} \quad C_{S0} = \SI{122,6}{\pico\farad} \quad \varepsilon_{\mathrm{r,Si}} = 11{,}7 \quad A_{RLZ} = \SI{2.5}{\milli\metre\squared}
 \]
 
 \begin{align*}
@@ -399,7 +398,9 @@ N_A &\gg N_D \rightarrow \text{abrupter pn-Übergang} \\
 \rightarrow\ C_{s0} &= \sqrt{\frac{\varepsilon_r \cdot \varepsilon_0 \cdot e N_D \cdot N_A}{2 \cdot (N_D + N_A) \cdot U_D}} \cdot A_{RLZ} \\
 \leftrightarrow\ N_D &= \frac{C_s^2 \cdot 2 \cdot (U_D - U)}{\varepsilon_r \cdot \varepsilon_0 \cdot A_{RLZ}^2}
 \end{align*}
-
+\[
+N_D \approx \SI{84.04e12}{\per\centi\meter\cubed}
+\]
 \vspace{1em} 
 
 %C.2
