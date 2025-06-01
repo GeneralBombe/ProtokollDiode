@@ -381,9 +381,12 @@ Anhand der gemessenen Werte kann nun $R_B$ bestimmt werden:
 \[
 C_S = \frac{C_{S0}}{(1+\frac{U}{U_D})^M}\quad f(U) = \frac{1}{C_S^\frac{1}{M}}
 \]
-Stufenfaktor von x ist ein indiz für einen linearen pn-Übergang.
-
-\vspace{1em} 
+Der Stufenfaktor wurde durch lineare Regression der Kapazitäts-Spannungs-Daten, abhänhih von M linearisiert. Die beste linearisierung entspricht in etwa dem Stufenfaktor. 
+Der Schnittpunkt der Ausgleichsgerade mit der Spannungsachse entspricht der Diffusionsspannung $U_D$ (hier $\approx \SI{0.275}{\volt}$).
+Stufenfaktor von $M \approx 3.33$ ist ein indiz für einen abrupten pn-Übergang. \\begin{align*}
+Das hierbei verwendete Python Skript findet sich im Anhang.
+\end{align*}
+\vspace{1em}
 
 % TODO: Replace 0 with the actual value 
 
