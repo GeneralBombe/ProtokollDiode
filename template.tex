@@ -292,8 +292,7 @@ Nun soll die gesuchte Injektionszeit $t_i$ bestimmt werden. Erhöhen der Frequen
 
 \begin{align*}
 	\Rightarrow\quad 
-    t_i &= \left(\frac{1}{2 f_{\text{best}}}\right) - t_r \\
-    %
+    t_i &= \left(\frac{1}{2 f_{\text{best}}}\right) - t_r \\ \\
     t_i &= \SI{33,755}{\micro\second}
 \end{align*}
 
@@ -485,6 +484,8 @@ AA136                      & \SI{0.55}{\volt}                        & \SI{0.345
 
 Da im Datenblatt nur sehr schwammige Aussagen über die Forward-Spannung getroffen werden und keine Aussage über den Bahnwiderstand ist es schwierig die werte zu vergleichen.
 
+
+
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
 	\includegraphics[width=0.6\textwidth]{C.3.1c 1N4002} % Include the figure, now larger
@@ -494,8 +495,30 @@ Da im Datenblatt nur sehr schwammige Aussagen über die Forward-Spannung getroff
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
 	\includegraphics[width=0.6\textwidth]{C.3.1c2 1N4002} % Include the figure, now larger
-	\caption{Grafische Bestimmung von $U_F$ und $R_B$.}
+	\caption{AA136 Grafische Bestimmung von $U_F$ und $R_B$.}
 \end{figure}
+
+\vspace{2em}
+
+Die Berechnung der Bahnwiderstände ergibt:\\
+
+a) 1N4002:
+
+\begin{equation*}
+\begin{array}{c@{\hspace{3cm}}c}
+m = \frac{\Delta U_F}{U_T \cdot \ln\left( \frac{I_{F2}}{I_{F1}} \right)} = 0{,}02525
+& R_B = \frac{m \cdot U_T}{I_{F1}} \cdot \ln\left(\frac{I_{F0}}{I_{F1}}\right) = \SI{87,572}{\milli\ohm}
+\end{array}
+\end{equation*}
+
+b) AA136:
+
+\begin{equation*}
+\begin{array}{c@{\hspace{3cm}}c}
+m = \frac{\Delta U_F}{U_T \cdot \ln\left( \frac{I_{F2}}{I_{F1}} \right)} = 4{,}2083
+& R_B = \frac{m \cdot U_T}{I_{F1}} \cdot \ln\left(\frac{I_{F0}}{I_{F1}}\right) = \SI{1,172}{\ohm}
+\end{array}
+\end{equation*}
 
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
