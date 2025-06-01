@@ -499,15 +499,25 @@ Da im Datenblatt nur sehr schwammige Aussagen über die Forward-Spannung getroff
 
 \vspace{2em}
 
-Die Berechnung der Bahnwiderstände ergibt:
+Die Berechnung der Bahnwiderstände ergibt:\\
 
-\begin{equation}
+a) AA135:
+
+\begin{equation*}
 \begin{array}{c@{\hspace{3cm}}c}
-R_B = \frac{m \cdot U_T}{I_{F1}} \cdot \ln\left(\frac{I_{F0}}{I_{F1}}\right)
-&
-m = \frac{\Delta U_F}{U_T \cdot \ln\left( \frac{I_{F2}}{I_{F1}} \right)}
+m = \frac{\Delta U_F}{U_T \cdot \ln\left( \frac{I_{F2}}{I_{F1}} \right)} = 0{,}02525
+& R_B = \frac{m \cdot U_T}{I_{F1}} \cdot \ln\left(\frac{I_{F0}}{I_{F1}}\right) = \SI{87,572}{\milli\ohm}
 \end{array}
-\end{equation}
+\end{equation*}
+
+b) AA136:
+
+\begin{equation*}
+\begin{array}{c@{\hspace{3cm}}c}
+m = \frac{\Delta U_F}{U_T \cdot \ln\left( \frac{I_{F2}}{I_{F1}} \right)} = 4{,}2083
+& R_B = \frac{m \cdot U_T}{I_{F1}} \cdot \ln\left(\frac{I_{F0}}{I_{F1}}\right) = \SI{1,172}{\ohm}
+\end{array}
+\end{equation*}
 
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
