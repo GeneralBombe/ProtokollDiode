@@ -273,19 +273,22 @@ $I/\si{\ampere}$ & 8\micro& 15\micro& 30\micro& 80\micro& 150\micro& 300\micro& 
 	\caption{Grafische bestimmung von $t_r$.}
 \end{figure}
 
-Nun soll die gesuchte Injektionszeit $t_i$ bestimmt werden:
+Nun soll die gesuchte Injektionszeit $t_i$ bestimmt werden. Erhöhen der Frequenz und beobachten der Speicherzeit ergab folgenden Wert für $f_{\text{best}}$: 
 
-\begin{center}
-    \vspace{1em}
-    \[
-    t_i = \left(\frac{1}{2 f_{\text{best}}}\right) - t_r
-    \]
-    \vspace{1em}
-    \begin{align*}
-        f_{\text{best}} &= \dots \\
-        t_i &= \dots
-    \end{align*}
-\end{center}
+\sisetup{locale = DE} % für Komma statt Punkt
+
+\begin{align*}
+    f_{\text{best}} &= \SI{14,3}{\kilo\hertz} 
+    && t_r = \SI{1,21}{\micro\second}
+\end{align*}
+
+\begin{align*}
+	\Rightarrow\quad 
+    t_i &= \left(\frac{1}{2 f_{\text{best}}}\right) - t_r \\
+    %
+    t_i &= \SI{33,755}{\micro\second}
+\end{align*}
+
 
 %B.3.3
 \subsubsection{Einfluß der Schaltzeiten auf die maximale Betriebsfrequenz}
