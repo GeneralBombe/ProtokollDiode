@@ -483,11 +483,26 @@ AA136                      & 0,55V                        & 345mV               
 
 Da im Datenblatt nur sehr schwammige Aussagen über die Forward-Spannung getroffen werden und keine Aussage über den Bahnwiderstand ist es schwierig die werte zu vergleichen.
 
+
+
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
 	\includegraphics[width=0.6\textwidth]{C.3.1c 1N4002} % Include the figure, now larger
 	\caption{Grafische bestimmung von $U_F$ und $R_B$.}
 \end{figure}
+
+\vspace{1em}
+
+Die Berechnung des Bahnwiderstandes ergibt:
+
+\begin{equation}
+\begin{array}{c@{\hspace{3cm}}c}
+R_B = \frac{m \cdot U_T}{I_{F1}} \cdot \ln\left(\frac{I_{F0}}{I_{F1}}\right)
+&
+m = \frac{\Delta U_F}{U_T \cdot \ln\left( \frac{I_{F2}}{I_{F1}} \right)}
+\end{array}
+\end{equation}
+
 
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
