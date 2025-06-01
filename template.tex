@@ -263,7 +263,7 @@ $I/\si{\ampere}$ & 8\micro& 15\micro& 30\micro& 80\micro& 150\micro& 300\micro& 
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
 	\includegraphics[width=0.6\textwidth]{B3.1a} % Include the figure, now larger
-	\caption{Messchaltung zur bestimmung der Speicher- und Abfallzeit.}
+	\caption{Versuchsaufbau zur bestimmung der Speicher- und Abfallzeit.}
 	\vspace{1em}
 \end{figure}
 
@@ -284,8 +284,6 @@ $I/\si{\ampere}$ & 8\micro& 15\micro& 30\micro& 80\micro& 150\micro& 300\micro& 
 \end{figure}
 
 Nun soll die gesuchte Injektionszeit $t_i$ bestimmt werden. Erhöhen der Frequenz und beobachten der Speicherzeit ergab folgenden Wert für $f_{\text{best}}$: 
-
-\sisetup{locale = DE} % für Komma statt Punkt
 
 \begin{align*}
     f_{\text{best}} &= \SI{14,3}{\kilo\hertz} 
@@ -318,12 +316,44 @@ Nun soll die gesuchte Injektionszeit $t_i$ bestimmt werden. Erhöhen der Frequen
 	\caption{Gleichrichtverhalten bei \SI{1}{\mega\hertz}.}
 \end{figure}
 
+\vspace{5em}
+
 %B.3.4
 \subsubsection{Dynamische Bestimmung des Bahnwiderstands}
 
-\[
-\Delta I_D \approx \Delta U_{gen}/R \quad R_B \approx \frac{\Delta U_D}{\Delta U_{gen}/R}
-\]
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.6\textwidth]{B.3.4a} % Include the figure, now larger
+	\caption{Versuchsaufbau zur Bestimmung des Bahnwiderstandes.}
+\end{figure}
+
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.75\textwidth]{B.3.4} % Include the figure, now larger
+	\caption{Bestimmung des Spannungssprungs $U_D$.}
+\end{figure}
+
+\vspace{1em}
+
+Anhand der gemessenen Werte kann nun $R_B$ bestimmt werden:
+
+\begin{align*}
+    \Delta U_{\text{gen}} &= \SI{13.5}{\volt} 
+    && \Delta U_D = \SI{50}{\milli\volt}
+\end{align*}
+
+\begin{align*}
+    \Rightarrow\quad 
+    R_B \approx \frac{\Delta U_D}{\Delta U_{\text{gen}} / R}
+\end{align*}
+
+\begin{align*}
+    \Rightarrow\quad 
+    R_B &= \frac{\SI{50}{\milli\volt}}{\SI{13.5}{\volt} / \SI{100}\ohm}  =  \SI{370}{\milli\ohm} \\
+\end{align*}
+
+\vspace{1em}
+
 
 %C
 \section{Auswertung}
