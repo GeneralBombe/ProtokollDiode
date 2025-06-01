@@ -469,6 +469,32 @@ AA136                      & 0,55V                        & 345mV               
 
 Da im Datenblatt nur sehr schwammige Aussagen über die Forward-Spannung getroffen werden und keine Aussage über den Bahnwiderstand ist es schwierig die werte zu vergleichen.
 
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.6\textwidth]{C.3.1 Z2.7 zenerdiode} % Include the figure, now larger
+	\caption{Grafische bestimmung der Zenerspannung von ZPD2.7.}
+\end{figure}
+
+\vspace{3em}
+
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.6\textwidth]{C.3.1 Z8.2 zenerdiode} % Include the figure, now larger
+	\caption{Grafische bestimmung der Zenerspannung von ZPD8.2.}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{l|ll}
+                            & $U_{\text{Z,Datenblatt}}$ & $U_{Z,\text{Gemessen}}$ \\
+\hline
+ZPD2.7                      &\SI{2,6}{\volt}                        &\SI{2,8}{\volt}                      \\
+\hline
+ZPD8.2                      &\SI{8,2}{\volt}                        &\SI{7,95}{\volt}                      \\                       
+\end{tabular}
+\end{table}
+
+Die gemessenen Werte stimmen im Rahmen der Messgenauigkeit mit den Werten aus dem Datenblatt überein.
 
 %C.3.2
 \subsubsection{Bahnwiderstand}
