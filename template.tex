@@ -416,15 +416,37 @@ n_i^2 = \sqrt{N_C N_V} \cdot \exp\left(-\frac{W_g}{2kT}\right)
 
 \vspace{1em} 
 
-Desto kleiner $I_s$ bzw. desto größer $W_g$, umso größer muss $U$ sein, um einen Strom $I$ zu halten.\\ \\  
-Bandlücken aller Dioden aus Abbildung 4.\\
-AA136 (Germanium) \( W_g = 0{,}67\,\text{eV} \)\\
-P600A, IN4002 (Silizium) \( W_g = 1{,}12\,\text{eV} \)\\
-IR383 (\( \lambda = 940\,\text{nm} \)) \( W_g = 1{,}32\,\text{eV} \)\\
-LTL-4253 (\( \lambda = 585\,\text{nm} \)) \( W_g = 2{,}12\,\text{eV} \)\\
-LTL-4223 (\( \lambda = 635\,\text{nm} \) \( W_g = 1{,}95\,\text{eV} \)\\
-LTL-4233 (\( \lambda = 565\,\text{nm} \)) \( W_g = 2{,}19\,\text{eV} \)\\
-L-7113MBDL (\( \lambda = 430\,\text{nm} \)) \( W_g = 2{,}88\,\text{eV} \)
+Desto kleiner $I_s$ bzw. desto größer $W_g$, umso größer muss $U$ sein, um einen Strom $I$ zu halten.\\  
+Dies führt zu einer größeren bzw. kleineren Bandlücke:\\
+
+% Bandlücken aller Dioden aus Abbildung 4.\\
+% AA136 (Germanium) \( W_g = 0{,}67\,\text{eV} \)\\
+% P600A, IN4002 (Silizium) \( W_g = 1{,}12\,\text{eV} \)\\
+% IR383 (\( \lambda = 940\,\text{nm} \)) \( W_g = 1{,}32\,\text{eV} \)\\
+% LTL-4253 (\( \lambda = 585\,\text{nm} \)) \( W_g = 2{,}12\,\text{eV} \)\\
+% LTL-4223 (\( \lambda = 635\,\text{nm} \) \( W_g = 1{,}95\,\text{eV} \)\\
+% LTL-4233 (\( \lambda = 565\,\text{nm} \)) \( W_g = 2{,}19\,\text{eV} \)\\
+% L-7113MBDL (\( \lambda = 430\,\text{nm} \)) \( W_g = 2{,}88\,\text{eV} \)
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\toprule
+\textbf{Diode} & \textbf{Wellenlänge \(\lambda\)} & \textbf{Bandlücke \(W_g\) [eV]} \\
+\midrule
+AA136 (Germanium)     & --              & 0{,}67 \\
+P600A (Silizium)      & --              & 1{,}12 \\
+1N4002 (Silizium)     & --              & 1{,}12 \\
+IR383 (IR-LED)        & 940\,nm         & 1{,}32 \\
+LTL-4253 (Gelb-LED)   & 585\,nm         & 2{,}12 \\
+LTL-4223 (Rot-LED)    & 635\,nm         & 1{,}95 \\
+LTL-4233 (Grün-LED)   & 565\,nm         & 2{,}19 \\
+L-7113MBDL (Blau-LED) & 430\,nm         & 2{,}88 \\
+\bottomrule
+\end{tabular}
+\caption{Bandlücken der verschiedenen Dioden}
+\end{table}
+
 
 %C.3
 \subsection{Schaltdioden}
