@@ -181,7 +181,7 @@ I/\si{\ampere} & 0,35\nano& 0,81\nano& 2,86\nano\\
 \end{table}
 
 \begin{center}
-	Hinweis:  Der Sperrstrom bei 0,5V ist beim Messen zwsichen \SI{0.25}{\nano\ampere} und \SI{0.4}{\nano\ampere} geschwankt.
+	Hinweis:  Der Sperrstrom bei 0,5V ist beim Messen zwischen \SI{0.25}{\nano\ampere} und \SI{0.4}{\nano\ampere} geschwankt.
 \end{center}
 
 
@@ -263,14 +263,14 @@ $I/\si{\ampere}$ & 8\micro& 15\micro& 30\micro& 80\micro& 150\micro& 300\micro& 
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
 	\includegraphics[width=0.6\textwidth]{B3.1a} % Include the figure, now larger
-	\caption{Versuchsaufbau zur bestimmung der Speicher- und Abfallzeit.}
+	\caption{Versuchsaufbau zur Bestimmung der Speicher- und Abfallzeit.}
 	\vspace{1em}
 \end{figure}
 
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
 	\includegraphics[width=0.75\textwidth]{B.3.1} % Include the figure, now larger
-	\caption{Grafische bestimmung von $t_s$, $t_f$ und $t_{rr}$.}
+	\caption{Grafische Bestimmung von $t_s$, $t_f$ und $t_{rr}$.}
 \end{figure}
 
 %B.3.2
@@ -279,7 +279,7 @@ $I/\si{\ampere}$ & 8\micro& 15\micro& 30\micro& 80\micro& 150\micro& 300\micro& 
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
 	\includegraphics[width=0.75\textwidth]{B.3.2} % Include the figure, now larger
-	\caption{Grafische bestimmung von $t_r$.}
+	\caption{Grafische Bestimmung von $t_r$.}
 	\vspace{1em}
 \end{figure}
 
@@ -380,10 +380,10 @@ Anhand der gemessenen Werte kann nun $R_B$ bestimmt werden:
 \[
 C_S = \frac{C_{S0}}{(1+\frac{U}{U_D})^M}\quad f(U) = \frac{1}{C_S^\frac{1}{M}}
 \]
-Der Stufenfaktor wurde durch lineare Regression der Kapazitäts-Spannungs-Daten, abhänhih von M linearisiert. Die beste linearisierung entspricht in etwa dem Stufenfaktor. 
+Der Stufenfaktor wurde durch lineare Regression der Kapazitäts-Spannungs-Daten, abhängig von M linearisiert. Die beste Linearisierung entspricht in etwa dem Stufenfaktor. 
 Der Schnittpunkt der Ausgleichsgerade mit der Spannungsachse entspricht der Diffusionsspannung $U_D$ (hier $\approx \SI{0.275}{\volt}$).
-Stufenfaktor von $M \approx 3.33$ ist ein indiz für einen abrupten pn-Übergang. \\
-Das hierbei verwendete Python Skript findet sich im Anhang.
+Stufenfaktor von $M \approx 3.33$ ist ein Indiz für einen abrupten pn-Übergang. \\
+Das hierfür verwendete Python Skript findet sich im Anhang.
 
 
 % TODO: Replace 0 with the actual value 
@@ -482,14 +482,14 @@ AA136                      & \SI{0.55}{\volt}                        & \SI{0.345
 \end{tabular}
 \end{table}
 
-Da im Datenblatt nur sehr schwammige Aussagen über die Forward-Spannung getroffen werden und keine Aussage über den Bahnwiderstand ist es schwierig die werte zu vergleichen.
+Da im Datenblatt nur sehr schwammige Aussagen über die Forward-Spannung getroffen werden und keine Aussage über den Bahnwiderstand gemacht wird, ist es schwierig, die Werte zu vergleichen.
 
 
 
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
 	\includegraphics[width=0.6\textwidth]{C.3.1c 1N4002} % Include the figure, now larger
-	\caption{Grafische bestimmung von $U_F$ und $R_B$.}
+	\caption{Grafische Bestimmung von $U_F$ und $R_B$.}
 \end{figure}
 
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
@@ -531,7 +531,7 @@ m = \frac{\Delta U_F}{U_T \cdot \ln\left( \frac{I_{F2}}{I_{F1}} \right)} = 4{,}2
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
 	\includegraphics[width=0.6\textwidth]{C.3.1 Z8.2 zenerdiode} % Include the figure, now larger
-	\caption{Grafische bestimmung der Zenerspannung von ZPD8.2.}
+	\caption{Grafische Bestimmung der Zenerspannung von ZPD8.2.}
 \end{figure}
 
 \begin{table}[H]
@@ -556,7 +556,7 @@ $R_{B1N4002\text{B3.4}} = \SI{370}{\milli\ohm}$ \qquad\qquad $R_{B1N4002\text{C3
 
 %C.3.3
 \subsubsection{Ideale Kennlinie}
-Für zeichnerisch dargstellte Idealkennlinie siehe B.2.1.
+Für zeichnerisch dargestellte Idealkennlinie siehe B.2.1.
 
 %C.3.4
 
@@ -589,8 +589,8 @@ $I_{S Grafisch} = \SI{0.2}{\nano\ampere} < I_{S B1.2}$. Diese Abweichung lässt 
 I_F = I_S(e^{U/\SI{25.8}{\milli\electronvolt}}-1)
 \]
 
-In der gemessenen Kennlinie werden reale Parameter wie Leitungswiderstamd, nichtideales Verhalten des Halbleiters sowie Temperaturabhängigkeiten abgebildet.
-Der Emissionskoeffizient passt dabei die Idealkennlinie etwas an die gemessene an. Trotzdem besteht noch eine nähere Übereinstimmung mit der idealen Kennlinie.
+In der gemessenen Kennlinie werden reale Parameter wie Leitungswiderstand, nichtideales Verhalten des Halbleiters sowie Temperaturabhängigkeiten abgebildet.
+Der Emissionskoeffizient passt dabei die Idealkennlinie etwas an die gemessene an. Trotzdem besteht noch eine gute Übereinstimmung mit der idealen Kennlinie.
 
 %C.3.5
 \subsubsection{Schaltverhalten}
