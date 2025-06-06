@@ -559,7 +559,18 @@ $R_{B1N4002\text{B3.4}} = \SI{370}{\milli\ohm}$ \qquad\qquad $R_{B1N4002\text{C3
 Für zeichnerisch dargstellte Idealkennlinie siehe B.2.1.
 
 %C.3.4
+
 \subsubsection{Sperrsättigungsstrom und Emissionskoeffizient 1N4002}
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.6\textwidth]{B.1.3.LogarithmischeDarstellung} % Include the figure, now larger
+	\caption{$\Delta U$, $I_{F1}$ und $I_{F2}$}
+\end{figure}
+\begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
+	\centering % Horizontally center the figure
+	\includegraphics[width=0.6\textwidth]{Geradelog} % Include the figure, now larger
+	\caption{Grafische Bestimmung von $I_S$ bei $\approx \SI{0.2}{\nano\ampere}$}
+\end{figure}
 \vspace{1em} 
 \[
 \Delta U_F = \SI{200}{\milli\volt} \quad \frac{I_{F2}}{I_{F1}} = 2.5\cdot10^2
@@ -573,7 +584,7 @@ Verlauf Durchlaßkennlinien siehe B2.1.\\
 
 Zudem sind Temperaturabhängigkeiten sowie Messgenauigkeiten und Verunreinigungen mögliche Ursachen. 
 
-$I_{S Grafisch} = 00,0 < I_{S B1.2}$. Diese Abweichung lässt sich auf thermischer Generation zurückzuführen. Für größere $U_R$ weitet sich die RLZ aus, wodurch thermische Generation einen größeren Einfluss hat. 
+$I_{S Grafisch} = \SI{0.2}{\nano\ampere} < I_{S B1.2}$. Diese Abweichung lässt sich auf thermischer Generation zurückzuführen. Für größere $U_R$ weitet sich die RLZ aus, wodurch thermische Generation einen größeren Einfluss hat. 
 \[
 I_F = I_S(e^{U/\SI{25.8}{\milli\electronvolt}}-1)
 \]
