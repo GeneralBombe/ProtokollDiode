@@ -197,7 +197,7 @@ $I/\si{\ampere}$ & 15 \nano& 30 \nano& 80 \nano& 150 \nano& 300 \nano& 800 \nano
 $U_R/\si{\volt}$ & 10 & 12.5 & 15 & 20 & 25 & 30 & 2 & \\
 $I/\si{\ampere}$ & 8\micro& 15\micro& 30\micro& 80\micro& 150\micro& 300\micro& 800\micro& \\
 \end{tabular}
-\caption{Sperrschichtstrom \(I/\si{\ampere}\) in Abhängigkeit von der Spannung \(U_R/\si{\volt}\).}
+\caption{Vorwärtestrom \(I/\si{\ampere}\) in Abhängigkeit von der Spannung \(U_R/\si{\volt}\).}
 \label{tab:uv-cf}
 \end{table}
 
@@ -369,7 +369,7 @@ Anhand der gemessenen Werte kann nun $R_B$ bestimmt werden:
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
 	\includegraphics[width=0.75\textwidth]{C3.1faktore} % Include the figure, now larger
-	\caption{$(\frac{1}{C})^2$ bei Stufenfaktor $M=0.33$.}
+	\caption{$f(U)= \frac{1}{C_S^\frac{1}{M}}$ bei Stufenfaktor $M=0.33$.}
 \end{figure}
 \begin{figure}[H] % [H] forces the figure to be placed exactly where it appears in the text
 	\centering % Horizontally center the figure
@@ -582,7 +582,6 @@ m = \frac{\Delta U_F}{\SI{25.8}{\milli\electronvolt}\cdot \ln(I_{F2}/I_{F1})} \r
 
 Verlauf Durchlaßkennlinien siehe B2.1.\\
 
-Zudem sind Temperaturabhängigkeiten sowie Messgenauigkeiten und Verunreinigungen mögliche Ursachen. 
 
 $I_{S Grafisch} = \SI{0.2}{\nano\ampere} < I_{S B1.2}$. Diese Abweichung lässt sich auf thermischer Generation zurückzuführen. Für größere $U_R$ weitet sich die RLZ aus, wodurch thermische Generation einen größeren Einfluss hat. 
 \[
@@ -591,6 +590,7 @@ I_F = I_S(e^{U/\SI{25.8}{\milli\electronvolt}}-1)
 
 In der gemessenen Kennlinie werden reale Parameter wie Leitungswiderstand, nichtideales Verhalten des Halbleiters sowie Temperaturabhängigkeiten abgebildet.
 Der Emissionskoeffizient passt dabei die Idealkennlinie etwas an die gemessene an. Trotzdem besteht noch eine gute Übereinstimmung mit der idealen Kennlinie.
+Zudem sind Temperaturabhängigkeiten sowie Messgenauigkeiten und Verunreinigungen mögliche Ursachen. 
 
 %C.3.5
 \subsubsection{Schaltverhalten}
